@@ -1,0 +1,3 @@
+
+export const ADD_COUNTRY = 'ADD_COUNTRY';
+export const GET_LIST_COUNTRY = 'GET_LIST_COUNTRY';

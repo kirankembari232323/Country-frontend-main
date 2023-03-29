@@ -1,0 +1,173 @@
+@import url(https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.css);
+
+body {
+  font-family: "Poppins", sans-serif;
+}
+
+.navbar-item {
+  display: flex;
+  font-size: 20px;
+  align-items: center;
+}
+.logo {
+  height: 60px;
+}
+
+.country img {
+  max-height: 500px;
+  max-width: 500px;
+  border: 1px solid darkslategrey;
+  width: 100%;
+}
+
+.country ul {
+  border: lightgray 1px solid;
+  border-radius: 5px;
+  padding: 1rem;
+  text-align: center;
+}
+.country li {
+  list-style: none;
+}
+.countryTitle {
+  font-size: 23px;
+  color: #42d7e6;
+}
+.countryContent {
+  text-align: left;
+}
+.map {
+  padding: 1rem;
+  margin-bottom: 2rem;
+}
+
+.country {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(175px, 1fr));
+  grid-gap: 4rem;
+  margin: 0rem auto;
+  padding: 1rem 2rem;
+}
+
+.loader {
+  text-align: center;
+  font-size: 1.8rem;
+  margin: 11rem;
+}
+
+/* marker */
+.marker {
+  position: absolute;
+  opacity: 0.6;
+  top: 50%;
+  left: 50%;
+  width: 18px;
+  height: 18px;
+  background-color: #000;
+  border: 2px solid #fff;
+  border-radius: 100%;
+  user-select: none;
+  transform: translate(-50%, -50%);
+  z-index: 0;
+}
+
+/* footer */
+footer {
+  display: flex;
+  bottom: 0;
+  justify-content: center;
+  width: 100%;
+  background-color: #eee;
+}
+
+footer p {
+  margin: 2rem;
+}
+
+.fa {
+  padding: 10px;
+  font-size: 1.5rem;
+  width: 7x;
+  height: 7px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+  color: #42d7e6;
+}
+
+.fa:hover {
+  color: darkslategray;
+}
+
+.dropdown {
+  text-align: center;
+  margin: 1rem;
+}
+
+.mainp {
+  font-size: large;
+}
+
+.form-control {
+  max-width: 300px;
+  display: inline;
+  margin-left: 1rem;
+}
+
+.imaginaryCountry img {
+  height: 300px;
+  width: 280px;
+}
+.imaginaryCountry ul {
+  text-align: center;
+  padding: 1rem;
+}
+.imaginaryCountry li {
+  list-style: none;
+}
+
+.imaginaryCountry {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+  grid-gap: 4rem;
+  margin: 1rem auto;
+}
+
+.country-drop{
+  text-align: center;
+}
+
+.input-field{
+  display: inline-block;
+  margin-bottom: .5rem;
+  width: 100%;
+  margin-left: 16px;
+}
+
+.imaginary-country-form{
+  width: 350px;
+  border: 1px solid grey;
+  border-radius: 7px;
+  margin-bottom: 50px;
+}
+
+.form-group {
+  margin-bottom: 1rem;
+  margin-bottom: 30px;
+}
+
+.submit-btn{
+  width: 96%;
+    margin-left: 10px;
+}
+
+.list-btn{
+  margin-left: 70px;
+}
+
+.error{
+  color: red;
+  font-size: 12px;
+  margin-left: 15px;
+  margin-top: 5px;
+}
